@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main
+{
+    public static void main (String[] args)
+    {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the number");
+        int n=sc.nextInt();
+        int l=(""+n).length();
+        int sq=n*n;
+        int end = sq % (int)Math.pow(10,l);
+        
+        if(n==end)
+        System.out.println("It is automorphic number");
+        else
+System.out.println("It is not an automorphic number");
+
+    }
+}
