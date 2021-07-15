@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main {
+    public static void main(String args[]) 
+      {
+          ArrayList<Integer>a1=new ArrayList<Integer>();
+          a1.add(10);
+          a1.add(2);
+          a1.add(8);
+          a1.add(4);
+          ArrayList<Integer>a2=new ArrayList<Integer>();
+          a1.add(50);
+          a1.add(1);
+          a1.add(78);
+          a1.add(18);
+          a1.addAll(a2);
+          Collections.sort(a1);
+          System.out.println(a1);
+      }
+    }
